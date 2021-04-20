@@ -94,6 +94,9 @@
     <PackageReference Include="Microsoft.Toolkit.Mvvm">
       <Version>7.0.1</Version>
     </PackageReference>
+    <PackageReference Include="ModernWpfUI">
+      <Version>0.9.4</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\MainWindow.xaml">
