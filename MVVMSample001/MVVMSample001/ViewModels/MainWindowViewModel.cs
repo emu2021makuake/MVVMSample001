@@ -34,7 +34,7 @@ namespace MVVMSample001.ViewModels
             set => SetProperty(ref _result, value);
         }
 
-        public RelayCommand CalculateCommand { get; }
+        public IRelayCommand CalculateCommand { get; }
 
         public MainWindowViewModel()
         {
@@ -52,7 +52,7 @@ namespace MVVMSample001.ViewModels
                 },
                 canExecute: () =>
                 {
-                    return !(string.IsNullOrEmpty(Value1) && string.IsNullOrEmpty(Value2));
+                    return !string.IsNullOrEmpty(Value1) && !string.IsNullOrEmpty(Value2);
                 });
         }
     }
