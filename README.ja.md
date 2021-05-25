@@ -1,5 +1,5 @@
 # MVVMSample001
-MVVM Toolkit (`Microsoft.Toolkit.Mvvm`) WPF Sample 1 - calc
+`MVVM Toolkit` (`Microsoft.Toolkit.Mvvm`) WPF Sample 1 - calc
 
 足し算アプリ
 
